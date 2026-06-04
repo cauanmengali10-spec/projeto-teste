@@ -1,0 +1,5 @@
+public ClienteDTO listar(){
+return clienteRepository.findAll()
+.stream
+.map(clienteMapper::toDTO)
+.toList
