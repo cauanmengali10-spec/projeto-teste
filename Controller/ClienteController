@@ -1,0 +1,4 @@
+public ClienteDTO salvar(@RequestBody @Valid ClientePostRequestBody body){
+return clienteService.salvar(body);
+
+}
